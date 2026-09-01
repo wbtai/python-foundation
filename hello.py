@@ -1,0 +1,1 @@
+print("Xin chào, tôi là Tài và đây là workspace Python Freelancer đầu tiên.")
