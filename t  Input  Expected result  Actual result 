@@ -1,0 +1,71 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex e69de29..038b61f 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,65 @@[m
+[32m+[m[32m# Python Foundation[m
+[32m+[m
+[32m+[m[32mRepository luyện tập Python cơ bản phục vụ lộ trình Freelancer.[m
+[32m+[m
+[32m+[m[32m## Requirements[m
+[32m+[m
+[32m+[m[32m- Python 3.x[m
+[32m+[m[32m- Git[m
+[32m+[m[32m- VS Code[m
+[32m+[m
+[32m+[m[32m## Activate virtual environment[m
+[32m+[m
+[32m+[m[32m```powershell[m
+[32m+[m[32m.\.venv\Scripts\Activate.ps1[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m## Run exercises[m
+[32m+[m
+[32m+[m[32m```powershell[m
+[32m+[m[32mpython scripts/01_profile.py[m
+[32m+[m[32mpython scripts/02_greeting.py[m
+[32m+[m[32mpython scripts/03_sum_two_numbers.py[m
+[32m+[m[32mpython scripts/04_age_next_year.py[m
+[32m+[m[32mpython scripts/05_temperature.py[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m## Example: Temperature converter[m
+[32m+[m
+[32m+[m[32mInput:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32mNhiệt độ Celsius: 25[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mOutput:[m
+[32m+[m
+[32m+[m[32m```text[m
+[32m+[m[32m25.0°C = 77.0°F[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m## Security[m
+[32m+[m
+[32m+[m[32mKhông commit `.env`, API key, mật khẩu hoặc thông tin cá nhân nhạy cảm.[m
+[32m+[m
+[32m+[m
+[32m+[m[32m## Expense CLI manual tests[m
+[32m+[m
+[32m+[m[32m| Test | Input | Expected result | Actual result |[m
+[32m+[m[32m|---|---|---|---|[m
+[32m+[m[32m| Valid | Food, 500 | food — ¥500.00; discount ¥450.00 | Passed |[m
+[32m+[m[32m| Empty category | spaces, 500 | Category không được để trống. | Passed |[m
+[32m+[m[32m| Invalid amount | transport, abc | Amount phải là một số. | Passed |[m
+[32m+[m[32m| Non-positive amount | coffee, 0 | Amount phải lớn hơn 0. | Passed |[m
+[32m+[m
+[32m+[m[32mRun command:[m
+[32m+[m
+[32m+[m[32m```powershell[m
+[32m+[m[32mpython scripts/07_expense_cli.py[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mInput format:[m
+[32m+[m
+[32m+[m[32m- Category: text.[m
+[32m+[m[32m- Amount: positive number using `.` for decimals.[m
+[32m+[m[32m- Example: `500` or `500.5`.[m
+\ No newline at end of file[m
