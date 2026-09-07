@@ -5,5 +5,5 @@ first = float(first_text)
 second = float(second_text)
 total = first + second
 
-print(f"Tong: {float}")
+print(f"Tong: {total}")
 

@@ -17,11 +17,10 @@ Repository luyện tập Python cơ bản phục vụ lộ trình Freelancer.
 ## Run exercises
 
 ```powershell
-python scripts/01_profile.py
-python scripts/02_greeting.py
-python scripts/03_sum_two_numbers.py
-python scripts/04_age_next_year.py
-python scripts/05_temperature.py
+python 01_profile.py
+python 02_greeting.py
+python 03_sum_two_numbers.py
+python 05_temperature.py
 ```
 
 ## Example: Temperature converter
@@ -55,7 +54,7 @@ Không commit `.env`, API key, mật khẩu hoặc thông tin cá nhân nhạy c
 Run command:
 
 ```powershell
-python scripts/07_expense_cli.py
+python 07_expense_cli.py
 ```
 
 Input format:
