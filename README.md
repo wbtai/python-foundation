@@ -24,3 +24,34 @@ python .\05_temperature.py
 python .\07_expense_cli.py
 ```
 
+## Debug log
+
+### Case 1: String concatenation
+
+- Symptom: `2 + 3` cho kết quả `23`.
+- Cause: `input()` trả về `str`.
+- Fix: chuyển bằng `int()` hoặc `float()`.
+
+### Case 2: ValueError
+
+- Symptom: `float("abc")` tạo traceback.
+- Cause: input không phải số.
+- Fix: validation bằng `try/except ValueError`.
+
+
+## Week 1 retrospective
+
+### Keep
+
+1. Luôn chạy chương trình từ terminal.
+2. Kiểm tra `git status` trước và sau commit.
+
+### Problem
+
+1. Đôi khi quên kích hoạt `.venv`.
+2. Dễ nhầm dữ liệu từ `input()` là số.
+
+### Try
+
+1. Kiểm tra `Get-Command python` ở đầu mỗi buổi.
+2. Viết test case trước khi coi chương trình đã hoàn thành.
