@@ -12,6 +12,7 @@ else:
     total_cost = transport_cost + drink_cost + other_cost
     cost_per_clip = total_cost / usable_clips
     print(video_title.upper())
+    print(round(total_cost, 2))
     print(round(cost_per_clip, 2))
 
     if usable_clips >= 8:
